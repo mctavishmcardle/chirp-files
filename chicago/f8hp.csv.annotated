@@ -1,0 +1,24 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,Mode,TStep,Skip,Comment,URCALL,RPT1CALL,RPT2CALL,DVCODE
+
+# LABEL     FREQ        TONE        PL      EXTRA
+
+# 2m Simplex
+20,CALL 2M, 146.520,,                       ,,88.5,88.5,023,NN,FM,5.00,,,,,,
+
+# 70cm Simplex
+30,CALL 70, 446.000,,                       ,,88.5,88.5,023,NN,FM,5.00,,,,,,
+
+# 2m repeaters
+50,NSRC 2M, 147.345,+,  0.600,Tone,107.2,   88.5,023,NN,FM,5.00,,,,,,
+51,CFMC 2M, 146.760,-,  0.600,Tone,107.2,   88.5,023,NN,FM,5.00,,,,,,
+52,SARA 2M, 146.880,-,  0.600,Tone,107.2,   88.5,023,NN,FM,5.00,,,,,,
+# not getting a response
+53,SRO 2M,  147.150,+,  0.600,Tone,107.2,   88.5,023,NN,FM,5.00,,,,,,
+
+# 70cm repeaters
+70,NSRC 70, 442.725,+,  5.000,Tone,114.8,   88.5,023,NN,FM,5.00,,,,,,
+71,CFMC 70, 443.750,+,  5.000,Tone,114.8,   88.5,023,NN,FM,5.00,,,,,,
+72,NBC 70,  442.400,+,  5.000,Tone,114.8,   88.5,023,NN,FM,5.00,,,,,,
+# no response
+73,SAD 70,  443.800,+,  5.000,Tone,114.8,   88.5,023,NN,FM,5.00,,,,,,
+74,SARA 70, 444.375,+,  5.000,Tone,114.8,   88.5,023,NN,FM,5.00,,,,,,

@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+# Strips annotations to produce valid CSVs for `chirp` programming
+#
+# Intended usage:
+#
+#   cat <file>.csv.annotated | strip-annotation > <file>.csv
+
+sed -f strip-annotation.sed
